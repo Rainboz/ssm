@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+	default-init-method="init" default-destroy-method="destroy">
+
+	<!-- <bean id="helloWorld" class="com.cn.zhb.spring.HelloWorld"> -->
+	<!-- <property name="message" value="我可以使用 标签来传递在创建对象时使用不同变量的值。"/> -->
+	<!-- </bean> -->
+<!-- 	<bean id="helloWorld" class="com.cn.zhb.spring.HelloWorld"> -->
+<!-- 		<property name="message" value="我可以使用 标签来传递在创建对象时使用不同变量的值。" /> -->
+<!-- 	</bean> -->
+<!-- 	<bean class="com.cn.zhb.spring.InitHelloWorld" /> -->
+	
+<!-- 	<bean id="helloWorld" class="com.cn.zhb.spring.HelloWorld"> -->
+<!--       <property name="message1" value="Hello World!"/> -->
+<!--       <property name="message2" value="Hello Second World!"/> -->
+<!--    </bean> -->
+
+<!--    <bean id="helloIndia" class="com.cn.zhb.spring.HelloIndia" parent="helloWorld"> -->
+<!--       <property name="message1" value="Hello India!"/> -->
+<!--       <property name="message3" value="Namaste India!"/> -->
+<!--    </bean> -->
+	<!-- Definition for textEditor bean -->
+   <bean id="textEditor" class="com.cn.zhb.spring.TextEditor">
+      <constructor-arg ref="spellChecker"/>
+   </bean>
+
+   <!-- Definition for spellChecker bean -->
+   <bean id="spellChecker" class="com.cn.zhb.spring.SpellChecker">
+   </bean>
+</beans>

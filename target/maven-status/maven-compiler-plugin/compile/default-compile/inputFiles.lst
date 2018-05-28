@@ -1,0 +1,8 @@
+D:\study\JavaEE\workspace\ssm\src\main\java\com\cn\zhb\dao\UserMapper.java
+D:\study\JavaEE\workspace\ssm\src\main\java\com\cn\zhb\pojo\User.java
+D:\study\JavaEE\workspace\ssm\src\main\java\com\cn\zhb\pojo\User_Life.java
+D:\study\JavaEE\workspace\ssm\src\main\java\com\cn\zhb\service\impl\IUserService.java
+D:\study\JavaEE\workspace\ssm\src\main\java\com\cn\zhb\service\impl\IUser_LifeService.java
+D:\study\JavaEE\workspace\ssm\src\main\java\com\cn\zhb\dao\User_LifeMapper.java
+D:\study\JavaEE\workspace\ssm\src\main\java\com\cn\zhb\service\impl\UserServiceImpl.java
+D:\study\JavaEE\workspace\ssm\src\main\java\com\cn\zhb\service\impl\User_LifeServiceImpl.java
